@@ -58,7 +58,7 @@ export function Player() {
       onCanPlay={onCanPlay}
       ref={player}
     >
-          <Thing />
+      {/* <Thing /> */}
       <MediaProvider>
         <Poster
           className={styles.poster}

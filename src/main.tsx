@@ -12,7 +12,7 @@ import { Thing } from './components/thing';
 const root = document.getElementById('player')!;
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    {/* <Thing /> */}
+    <Thing />
     <Player />
   </React.StrictMode>,
 );

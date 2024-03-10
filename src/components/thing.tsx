@@ -28,5 +28,5 @@ export const Thing = () => {
     console.log("rg", remote.getPlayer());
   }
 
-  return <h1 onClick={handeClick}>Thing</h1>;
+  return <button><h1 onClick={handeClick}>Play</h1></button>;
 }
